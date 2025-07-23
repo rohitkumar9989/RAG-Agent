@@ -28,7 +28,7 @@ class LLMResponseAgent:
 
         prompt=ChatPromptTemplate.from_messages([
             ("system", "You are an chatbot who prepares the answer based on the retrieved text chunks from query related database, answer them properly! Only generate the summary no need of other tags, as it would be directly show in UI!!"),
-            ("human", f"Here are the retrieved chunks: <chunks>{1}</chunks>".format(chunks)),
+            ("human", f"Here are the retrieved chunks: <chunks>{chunks}</chunks>"),
             ("human",  "I have to following question from the retrieved chunks: \n<query>{query}</query>"),
             ("ai", "Here is a summarized report on the question {query}: ")
         ])
