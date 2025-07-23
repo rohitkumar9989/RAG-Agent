@@ -1,4 +1,4 @@
-```
+
 # 📚 Agentic RAG Chatbot – Multi-Format Document QA
 
 ## 🔗 Overview
@@ -13,7 +13,6 @@ This project implements an **Agentic Retrieval-Augmented Generation (RAG) chatbo
 - Streamlit UI
 
 ## 🗂️ Folder Structure
-```
 
 project\_root/
 ├── agents/
@@ -25,7 +24,7 @@ project\_root/
 ├── README.md
 └── tmp/
 
-```
+
 
 ## ⚙️ Tech Stack
 - Python
@@ -37,7 +36,7 @@ project\_root/
 - dotenv
 
 ## 🧩 MCP Message Examples
-```
+
 
 {
 "sender": "IngestionAgent",
@@ -72,30 +71,26 @@ project\_root/
 }
 }
 
-````
+`
 
 ## ▶️ How to Run
 1. Clone the repo
 2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-````
+   
+   `pip install -r requirements.txt`
 
 3. Add keys to `.env`
 
-   ```env
+   env
    HF_TOKEN=...
    GROQ_API_KEY=...
-   ```
 4. Run
+   `streamlit run app.py`
 
-   ```bash
-   streamlit run app.py
-   ```
+## 📸 Workflow 
 
-## 📸 Demo Screenshots
+![Flow Diagram](flow_diagram.png)
 
-*Add screenshots*
 
 ## ⚡ Challenges
 
@@ -111,5 +106,3 @@ project\_root/
 **Email:** [rohitofficial9989@gmail.com](mailto:rohitofficial9989@gmail.com)
 **Phone:** 7702295908
 
-```
-```
